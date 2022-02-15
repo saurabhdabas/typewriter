@@ -1,6 +1,6 @@
-const typewriter = function(sentence){
+const typewriter = function(input){
 let counter = 50;
-let charArray = sentence + "\n";
+let sentence = input + "\n";
 for (const char of charArray) {
   counter += 150;
   setTimeout(()=>{
